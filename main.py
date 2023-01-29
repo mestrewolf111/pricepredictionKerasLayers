@@ -3,7 +3,7 @@ import datetime
 warnings.filterwarnings('ignore')
 import pickle
 from iqoptionapi.stable_api import IQ_Option
-iq = IQ_Option(f"marcosmordefronha123@gmail.com", "Meuovo123!")
+iq = IQ_Option(f"email", "senha")
 iq.connect()  # connect to iqoption
 iq.get_all_init()
 import os
